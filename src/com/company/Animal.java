@@ -12,7 +12,7 @@ public class Animal {
     }
 
     public String toString(){
-        return name + "the " + species + "is a " + diet;
+        return name + " the " + species + " is a " + diet;
     }
 
 
