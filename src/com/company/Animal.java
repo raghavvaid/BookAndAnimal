@@ -5,7 +5,7 @@ public class Animal {
     private String species;
     private String name;
 
-    public Animal(String food, String spec, String n){
+    public Animal(String n, String spec, String food){
         diet = food;
         species = spec;
         name = n;

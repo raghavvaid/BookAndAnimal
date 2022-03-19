@@ -1,10 +1,10 @@
 package com.company;
 
 public class Elephant extends Herbivore{
-    private String name;
+
     private double length;
-    public Elephant(String name, double len){
-        super("Elephant", name);
+    public Elephant(String name1, double len){
+        super(name1, "Elephant");
         length = len;
     }
     public String toString(){
